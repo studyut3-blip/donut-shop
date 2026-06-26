@@ -1,0 +1,29 @@
+.logo-style{
+    width:80px;
+    background-color:transparent;
+}
+.navbar{
+    background-color:#FFD166;
+}
+footer{
+    background-color:#FFD166;
+}
+body{
+    background-image:url(../images1/donut-backimg-30.png);
+    font-family: "Mochiy Pop One", sans-serif !important;
+}
+.ft-size{
+    font-size:20px;
+}
+h2{
+    color:#06D6A0;
+    text-shadow:2px 2px 0 #333, -2px -2px 0 #333, 2px -2px 0 #333, -2px 2px 0 #333, 2px 0 0 #333, -2px 0 0 #333, 0 2px 0 #333, 0 -2px 0 #333;
+}
+.card-frame {
+    border: 10px solid #FF6B8B !important; /* 他のスタイルに負けないように !important を付与 */
+    box-sizing: border-box;
+}
+.card-frame .card-img-top {
+    border-top-left-radius: calc(0.3 wrem - 10px);
+    border-top-right-radius: calc(0.3rem - 10px);
+}
